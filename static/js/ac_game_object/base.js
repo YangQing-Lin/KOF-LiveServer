@@ -49,3 +49,4 @@ requestAnimationFrame(AC_GAME_OBJECTS_FRAME);
 export {
     AcGameObject
 }
+
