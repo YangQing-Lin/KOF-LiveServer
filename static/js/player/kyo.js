@@ -1,5 +1,5 @@
-import { Player } from '/static/js/player/base.js';
-import { GIF } from '/static/js/utils/gif.js';
+import { Player } from '/KOF-LiveServer/static/js/player/base.js';
+import { GIF } from '/KOF-LiveServer/static/js/utils/gif.js';
 
 export class Kyo extends Player {
     constructor(root, info) {
