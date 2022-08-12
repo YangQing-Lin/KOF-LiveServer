@@ -14,7 +14,6 @@ export class Kyo extends Player {
         for (let i = 0; i < 7; i++) {
             let gif = GIF();
             gif.load(`/KOF-LiveServer/static/images/player/kyo/${i}.gif`);
-            console.log("load img:", i);
             this.animations.set(i, {
                 gif: gif,
                 frame_cnt: 0,  // 总图片数
