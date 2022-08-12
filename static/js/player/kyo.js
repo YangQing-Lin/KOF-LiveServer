@@ -13,7 +13,7 @@ export class Kyo extends Player {
         let offsets = [0, -22, -22, -140, 0, 0, 0];
         for (let i = 0; i < 7; i++) {
             let gif = GIF();
-            gif.load(`/static/images/player/kyo/${i}.gif`);
+            gif.load(`/KOF-LiveServer/static/images/player/kyo/${i}.gif`);
             this.animations.set(i, {
                 gif: gif,
                 frame_cnt: 0,  // 总图片数
